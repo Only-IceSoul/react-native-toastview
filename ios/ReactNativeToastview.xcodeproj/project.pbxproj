@@ -6,6 +6,24 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D03B7FF726BB2777005E0C6E /* Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = D03B7FF426BB2777005E0C6E /* Toast.m */; };
+		D03B7FF826BB2777005E0C6E /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03B7FF526BB2777005E0C6E /* Toast.swift */; };
+		D03B7FF926BB2777005E0C6E /* ToastManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03B7FF626BB2777005E0C6E /* ToastManager.swift */; };
+		D03B800126BB291A005E0C6E /* JJLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03B7FFC26BB291A005E0C6E /* JJLabel.swift */; };
+		D03B800226BB291A005E0C6E /* JJMargin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03B7FFD26BB291A005E0C6E /* JJMargin.swift */; };
+		D03B800326BB291A005E0C6E /* JJLabelUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03B7FFE26BB291A005E0C6E /* JJLabelUI.swift */; };
+		D03B800426BB291A005E0C6E /* JJScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03B7FFF26BB291A005E0C6E /* JJScreen.swift */; };
+		D03B800526BB291A005E0C6E /* JJLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03B800026BB291A005E0C6E /* JJLayout.swift */; };
+		D03B800F26BB2923005E0C6E /* extension_UIBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03B800826BB2923005E0C6E /* extension_UIBezierPath.swift */; };
+		D03B801026BB2923005E0C6E /* extension_UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03B800926BB2923005E0C6E /* extension_UIView.swift */; };
+		D03B801126BB2923005E0C6E /* extension_UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03B800A26BB2923005E0C6E /* extension_UIColor.swift */; };
+		D03B801226BB2923005E0C6E /* extension_CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03B800B26BB2923005E0C6E /* extension_CGRect.swift */; };
+		D03B801326BB2923005E0C6E /* extension_AttrString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03B800C26BB2923005E0C6E /* extension_AttrString.swift */; };
+		D03B801426BB2923005E0C6E /* extension_CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03B800D26BB2923005E0C6E /* extension_CALayer.swift */; };
+		D03B801526BB2923005E0C6E /* extension_String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03B800E26BB2923005E0C6E /* extension_String.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		58B511D91A9E6C8500147676 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -20,6 +38,22 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libReactNativeToastview.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReactNativeToastview.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03B7FEE26BB2717005E0C6E /* ReactNativeToastview-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactNativeToastview-Bridging-Header.h"; sourceTree = "<group>"; };
+		D03B7FF426BB2777005E0C6E /* Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Toast.m; sourceTree = "<group>"; };
+		D03B7FF526BB2777005E0C6E /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		D03B7FF626BB2777005E0C6E /* ToastManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastManager.swift; sourceTree = "<group>"; };
+		D03B7FFC26BB291A005E0C6E /* JJLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJLabel.swift; sourceTree = "<group>"; };
+		D03B7FFD26BB291A005E0C6E /* JJMargin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJMargin.swift; sourceTree = "<group>"; };
+		D03B7FFE26BB291A005E0C6E /* JJLabelUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJLabelUI.swift; sourceTree = "<group>"; };
+		D03B7FFF26BB291A005E0C6E /* JJScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJScreen.swift; sourceTree = "<group>"; };
+		D03B800026BB291A005E0C6E /* JJLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJLayout.swift; sourceTree = "<group>"; };
+		D03B800826BB2923005E0C6E /* extension_UIBezierPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extension_UIBezierPath.swift; sourceTree = "<group>"; };
+		D03B800926BB2923005E0C6E /* extension_UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extension_UIView.swift; sourceTree = "<group>"; };
+		D03B800A26BB2923005E0C6E /* extension_UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extension_UIColor.swift; sourceTree = "<group>"; };
+		D03B800B26BB2923005E0C6E /* extension_CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extension_CGRect.swift; sourceTree = "<group>"; };
+		D03B800C26BB2923005E0C6E /* extension_AttrString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extension_AttrString.swift; sourceTree = "<group>"; };
+		D03B800D26BB2923005E0C6E /* extension_CALayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extension_CALayer.swift; sourceTree = "<group>"; };
+		D03B800E26BB2923005E0C6E /* extension_String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extension_String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,8 +78,40 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				D03B800726BB2923005E0C6E /* extension */,
+				D03B7FF426BB2777005E0C6E /* Toast.m */,
+				D03B7FF526BB2777005E0C6E /* Toast.swift */,
+				D03B7FF626BB2777005E0C6E /* ToastManager.swift */,
 				134814211AA4EA7D00B7C361 /* Products */,
+				D03B7FEE26BB2717005E0C6E /* ReactNativeToastview-Bridging-Header.h */,
+				D03B7FFB26BB291A005E0C6E /* utils */,
 			);
+			sourceTree = "<group>";
+		};
+		D03B7FFB26BB291A005E0C6E /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				D03B7FFC26BB291A005E0C6E /* JJLabel.swift */,
+				D03B7FFD26BB291A005E0C6E /* JJMargin.swift */,
+				D03B7FFE26BB291A005E0C6E /* JJLabelUI.swift */,
+				D03B7FFF26BB291A005E0C6E /* JJScreen.swift */,
+				D03B800026BB291A005E0C6E /* JJLayout.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		D03B800726BB2923005E0C6E /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				D03B800826BB2923005E0C6E /* extension_UIBezierPath.swift */,
+				D03B800926BB2923005E0C6E /* extension_UIView.swift */,
+				D03B800A26BB2923005E0C6E /* extension_UIColor.swift */,
+				D03B800B26BB2923005E0C6E /* extension_CGRect.swift */,
+				D03B800C26BB2923005E0C6E /* extension_AttrString.swift */,
+				D03B800D26BB2923005E0C6E /* extension_CALayer.swift */,
+				D03B800E26BB2923005E0C6E /* extension_String.swift */,
+			);
+			path = extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -79,6 +145,7 @@
 				TargetAttributes = {
 					58B511DA1A9E6C8500147676 = {
 						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 1220;
 					};
 				};
 			};
@@ -105,6 +172,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D03B801026BB2923005E0C6E /* extension_UIView.swift in Sources */,
+				D03B801226BB2923005E0C6E /* extension_CGRect.swift in Sources */,
+				D03B801526BB2923005E0C6E /* extension_String.swift in Sources */,
+				D03B800226BB291A005E0C6E /* JJMargin.swift in Sources */,
+				D03B800126BB291A005E0C6E /* JJLabel.swift in Sources */,
+				D03B801326BB2923005E0C6E /* extension_AttrString.swift in Sources */,
+				D03B7FF926BB2777005E0C6E /* ToastManager.swift in Sources */,
+				D03B800526BB291A005E0C6E /* JJLayout.swift in Sources */,
+				D03B801426BB2923005E0C6E /* extension_CALayer.swift in Sources */,
+				D03B800F26BB2923005E0C6E /* extension_UIBezierPath.swift in Sources */,
+				D03B7FF726BB2777005E0C6E /* Toast.m in Sources */,
+				D03B800326BB291A005E0C6E /* JJLabelUI.swift in Sources */,
+				D03B801126BB2923005E0C6E /* extension_UIColor.swift in Sources */,
+				D03B7FF826BB2777005E0C6E /* Toast.swift in Sources */,
+				D03B800426BB291A005E0C6E /* JJScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,32 +307,41 @@
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ReactNativeToastview;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ReactNativeToastview-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ReactNativeToastview;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ReactNativeToastview-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
