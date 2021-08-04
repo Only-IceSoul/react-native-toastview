@@ -1,0 +1,49 @@
+{
+  "name": "react-native-toastview",
+  "title": "React Native Toast View",
+  "version": "0.0.1",
+  "description": "Toast Android ios web",
+  "main": "index.js",
+  "files": [
+    "README.md",
+    "android",
+    "index.js",
+    "index.d.ts",
+    "src",
+    "ios",
+    "react-native-toastview.podspec"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github_account/react-native-toastview.git",
+    "baseUrl": "https://github.com/github_account/react-native-toastview"
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "toast",
+    "android",
+    "ios",
+    "web",
+    "modal",
+    "message"
+  ],
+  "author": {
+    "name": "Juan J LF",
+    "email": "justinjlf21@gmail.com"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": ">=16.8.1",
+    "react-native": ">=0.60.0-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "react": "^16.9.0",
+    "react-native": "^0.61.5"
+  }
+}
