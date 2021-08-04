@@ -1,7 +1,6 @@
-interface ToastInterface {
-    short:number  
-    long:number
-    show: (msg:string,lenght:number) => void
 
+export default class Toast {
+    static short:string  
+    static long:string
+    static show: (msg:string,lenght:string) => void
 }
-export default class Toast extends ToastInterface {}

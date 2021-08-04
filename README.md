@@ -2,7 +2,7 @@
 
 android: api 21+  
 ios : 10.0+  
-web: +  
+web: +
 
 <img src="./src/demo.jpg" width="300" />
 

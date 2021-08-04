@@ -1,15 +1,9 @@
 // main index.js
 
-import { NativeModules } from 'react-native';
+import { Platform } from "react-native";
+import ToastNative from './src/Toast'
+import ToastWeb  from "./src/ToastWeb";
 
-const t = NativeModules.Toast;
+const Toast = Platform.OS === 'android' || Platform.OS === 'ios' ? ToastNative : ToastWeb
 
-const Toast = {
-    short:'short',
-    long:'long',
-    show:(str,duration)=>{
-        t.show(str,duration)
-    }
-}
-
-export default Toast;
+export default Toast

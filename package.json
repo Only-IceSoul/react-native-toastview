@@ -1,7 +1,7 @@
 {
   "name": "react-native-toastview",
   "title": "React Native Toast View",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Toast Android ios web",
   "main": "index.js",
   "files": [
@@ -18,8 +18,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-toastview.git",
-    "baseUrl": "https://github.com/github_account/react-native-toastview"
+    "url": "git+https://github.com/Only-IceSoul/react-native-toastview.git",
+    "baseUrl": "https://github.com/Only-IceSoul/react-native-toastview"
   },
   "keywords": [
     "react-native",
