@@ -21,10 +21,10 @@ class Toast : NSObject, RCTBridgeModule{
     
     @objc func show(_ message:String?,duration:String?){
         let time = duration ?? "short"
-        let d = time == "long" ? ToastManager.Duration.LONG : ToastManager.Duration.SHORT
+      
         if message != nil{
             DispatchQueue.main.async {
-                ToastManager.makeText(message: message!, duration: d)
+                ToastManager.makeText(message: message!, duration: time)
             
             }
         }

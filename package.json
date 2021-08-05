@@ -1,7 +1,7 @@
 {
   "name": "react-native-toastview",
   "title": "React Native Toast View",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Toast Android ios web",
   "main": "index.js",
   "files": [

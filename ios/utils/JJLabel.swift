@@ -547,6 +547,26 @@ class JJLabel : UIView {
        }
     
     @discardableResult
+    func clWidthLessEqualTo(anchor:NSLayoutDimension,multiplier: CGFloat, priority:JJAnchoredPrioritys = .normal) -> JJLabel{
+               
+             
+        mConstraints.width?.isActive = false
+        mConstraints.width = widthAnchor.constraint(lessThanOrEqualTo: anchor, multiplier: multiplier, constant: 0)
+        mConstraints.width?.identifier = "width"
+        mConstraints.width?.priority = priority.width
+               return self
+        }
+    @discardableResult
+    func clHeightLessEqualTo(anchor: NSLayoutDimension,multiplier: CGFloat, priority:JJAnchoredPrioritys = .normal) -> JJLabel{
+               
+        mConstraints.height?.isActive = false
+        mConstraints.height = heightAnchor.constraint(lessThanOrEqualTo: anchor, multiplier: multiplier, constant: 0)
+        mConstraints.height?.identifier = "height"
+        mConstraints.height?.priority = priority.height
+               return self
+    }
+    
+    @discardableResult
         func clWidthLessEqualTo(size:CGFloat, priority:JJAnchoredPrioritys = .normal) -> JJLabel{
                   
               if size < 0 { return self }

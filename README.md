@@ -30,7 +30,7 @@ Toast.long
 import Toast from 'react-native-toastview'
 
 <touchableView onPress={()=>{
-    Toast.show("mymessage",Toast.SHORT)
+    Toast.show("mymessage",Toast.short)
 }} 
  />
 ```
